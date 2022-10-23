@@ -1,0 +1,43 @@
+.h100vh{
+    height: 100vh;
+}
+
+.show-sidebar{
+    left: 0% !important;
+}
+
+.sidebar{
+    left: -30%;
+    transition: 0.5s;
+    display: inline;
+}
+
+.pokemon-heading{
+    color: black;
+}
+
+.pokemon-heading::first-letter{
+    text-transform: uppercase;
+}
+
+.first-letter-uppercase::first-letter{
+    text-transform: uppercase;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.filter-buttons img {
+    height: 35px;
+    width: 35px;
+}
+
+.hover-dropshadow{
+    transition: 0.5s;
+}
+.hover-dropshadow:hover{
+    filter: drop-shadow(0px 0px 5px rgb(177, 177, 177));
+    transition: 0.5s;
+}
+
